@@ -232,5 +232,6 @@ public List<Product> createProducts(List<Product> products) {
 Q: The difference between `@Cacheable` and `@CachePut` ?
 A: `@Cacheable` will skip running the method, whereas `@CachePut` will actually run the method and then put its results in the cache.
 
-Q: Expects Serializable but com.xxx.entity.Product ?
+
+Q: Expects `Serializable` but `com.xxx.entity.Product`? 
 A: make sure cache entities implements `Serializable`
